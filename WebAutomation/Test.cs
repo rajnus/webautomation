@@ -17,7 +17,7 @@ namespace WebAutomation
 			IWebElement element = driver.FindElement(By.Id("lst-ib"));
 			element.SendKeys("test");
 			element.SendKeys(Keys.Enter);
-			Thread.Sleep(3000);
+			Thread.Sleep(2000);
 			driver.Close();
 		}
 	}
