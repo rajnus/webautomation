@@ -2,21 +2,12 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="WebAutomation Status">
     <Files>
       <File FileName="WebAutomation Status" />
-      <File FileName="WebAutomation Status" />
       <File FileName="WebAutomation/Test.cs" Line="25" Column="1" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="WebAutomation" expanded="True">
-            <Node name="WebAutomation" expanded="True">
-              <Node name="WebAutomation" expanded="True">
-                <Node name="Test" expanded="True">
-                  <Node name="TestCase" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="WebAutomation" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
