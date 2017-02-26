@@ -6,3 +6,11 @@
 /Users/rajnus/Projects/WebAutomation/WebAutomation/bin/Debug/nunit.framework.dll
 /Users/rajnus/Projects/WebAutomation/WebAutomation/bin/Debug/WebDriver.dll
 /Users/rajnus/Projects/WebAutomation/WebAutomation/bin/Debug/WebDriver.Support.dll
+/Users/rajnus/webautomation/WebAutomation/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/rajnus/webautomation/WebAutomation/bin/Debug/WebAutomation.dll.mdb
+/Users/rajnus/webautomation/WebAutomation/bin/Debug/WebAutomation.dll
+/Users/rajnus/webautomation/WebAutomation/obj/Debug/WebAutomation.dll
+/Users/rajnus/webautomation/WebAutomation/obj/Debug/WebAutomation.dll.mdb
+/Users/rajnus/webautomation/WebAutomation/bin/Debug/nunit.framework.dll
+/Users/rajnus/webautomation/WebAutomation/bin/Debug/WebDriver.dll
+/Users/rajnus/webautomation/WebAutomation/bin/Debug/WebDriver.Support.dll
