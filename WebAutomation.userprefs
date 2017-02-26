@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{DF4B9716-25F9-46AD-8645-3A49F4732BBC}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAutomation Status">
+    <Files>
+      <File FileName="WebAutomation Status" />
+      <File FileName="WebAutomation Status" />
+      <File FileName="WebAutomation/Test.cs" Line="25" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="WebAutomation" expanded="True">
+            <Node name="WebAutomation" expanded="True">
+              <Node name="WebAutomation" expanded="True">
+                <Node name="Test" expanded="True">
+                  <Node name="TestCase" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebAutomation PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
