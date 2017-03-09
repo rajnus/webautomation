@@ -1,0 +1,8 @@
+/Users/rajnus/webautomation/WebAutomation/bin/Release/WebAutomation.dll
+/Users/rajnus/webautomation/WebAutomation/bin/Release/nunit.framework.dll
+/Users/rajnus/webautomation/WebAutomation/bin/Release/WebDriver.dll
+/Users/rajnus/webautomation/WebAutomation/bin/Release/WebDriver.Support.dll
+/Users/rajnus/webautomation/WebAutomation/bin/Release/nunit.framework.xml
+/Users/rajnus/webautomation/WebAutomation/bin/Release/WebDriver.xml
+/Users/rajnus/webautomation/WebAutomation/bin/Release/WebDriver.Support.xml
+/Users/rajnus/webautomation/WebAutomation/obj/Release/WebAutomation.dll
