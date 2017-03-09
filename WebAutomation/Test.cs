@@ -11,14 +11,13 @@ namespace WebAutomation
 	public class Bwin
 	{
 		public static IWebDriver driver;
+		public static WebDriverWait wait;
 
 		[SetUp]
 		public void SetUp()
 		{
-			
-
-
 			driver = new ChromeDriver("/Users/rajnus/workspace/WebDriver");
+			wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
 			driver.Url = "https://www.bwin.com/de";
 			//driver.Manage().Timeouts().ImplicityWait(TimeSpan.FromSeconds(5));
 		}
@@ -26,7 +25,6 @@ namespace WebAutomation
 		[Test()]
 		public void TestCase()
 		{
-			WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
 			driver.Url = "https://www.bwin.com/de";
 			wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//*[@id='header']/div[1]/div[2]/ul/li[2]/a")));
 			driver.FindElement(By.XPath("//*[@id='header']/div[1]/div[2]/ul/li[2]/a")).Click();
