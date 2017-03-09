@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{DF4B9716-25F9-46AD-8645-3A49F4732BBC}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebAutomation Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="webautomation Status">
     <Files>
-      <File FileName="WebAutomation/Test.cs" Line="34" Column="89" />
-      <File FileName="WebAutomation Status" />
+      <File FileName="WebAutomation/Test.cs" Line="21" Column="24" />
+      <File FileName="WebAutomation/WebRegistration/WebRegistration.cs" Line="31" Column="3" />
+      <File FileName="WebAutomation/Root.cs" Line="12" Column="50" />
+      <File FileName="webautomation Status" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
@@ -10,9 +12,7 @@
           <Node name="WebAutomation" expanded="True">
             <Node name="WebAutomation" expanded="True">
               <Node name="WebAutomation" expanded="True">
-                <Node name="Bwin" expanded="True">
-                  <Node name="TestCase" selected="True" />
-                </Node>
+                <Node name="Bwin" expanded="True" selected="True" />
               </Node>
             </Node>
           </Node>

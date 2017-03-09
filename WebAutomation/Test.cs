@@ -1,42 +1,47 @@
 ﻿using NUnit.Framework;
-using System;
-using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Chrome;
 using System.Threading;
+
+
 
 namespace WebAutomation
 {
 	[TestFixture()]
 	public class Bwin
 	{
-		public static IWebDriver driver;
-		public static WebDriverWait wait;
 
 		[SetUp]
 		public void SetUp()
 		{
-			driver = new ChromeDriver("/Users/rajnus/workspace/WebDriver");
-			wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
-			driver.Url = "https://www.bwin.com/de";
-			//driver.Manage().Timeouts().ImplicityWait(TimeSpan.FromSeconds(5));
+		}
+
+		[TearDown]
+		public void Dispose()
+		{
+			//Root.driver.Close();
 		}
 
 		[Test()]
-		public void TestCase()
+		public void TestCas2()
 		{
-			driver.Url = "https://www.bwin.com/de";
-			wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//*[@id='header']/div[1]/div[2]/ul/li[2]/a")));
-			driver.FindElement(By.XPath("//*[@id='header']/div[1]/div[2]/ul/li[2]/a")).Click();
-			wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id='Input_NameData_FirstName']")));
-			driver.FindElement(By.XPath("//*[@id='Input_NameData_FirstName']")).SendKeys("Igor");
-			driver.FindElement(By.CssSelector("#Input_NameData_LastName")).SendKeys("Rajnovic");
-			driver.FindElement(By.CssSelector("#Input_BirthData_DateOfBirth_Day")).SendKeys("07");
-			driver.FindElement(By.CssSelector("#Input_BirthData_DateOfBirth_Month")).SendKeys("Jul");
-			driver.FindElement(By.CssSelector("#Input_BirthData_DateOfBirth_Year")).SendKeys("1979");
+			Root.driver.Url = "https://www.bwin.com/de";
+			Root.wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//*[@id='header']/div[1]/div[2]/ul/li[2]/a")));
+			Root.driver.FindElement(By.XPath("//*[@id='header']/div[1]/div[2]/ul/li[2]/a")).Click();
+			Root.wait.Until(ExpectedConditions.ElementIsVisible(By.XPath(Root.WebRegistration.firstName)));
+			Root.WebRegistration.EnterFirstName("Igor");
+			Root.WebRegistration.EnterLastName("Rajnovic");
+			Root.WebRegistration.EnterDateOfBirth("07", "Jul", "1979");
 			Thread.Sleep(3500);
-			driver.Close();
+		}
 
+		[Test()]
+		public void TestCase1()
+		{
+			Root.driver.Url = "https://www.bwin.com/de/registration";
+			Root.WebRegistration.EnterFirstName("TestCas");
+			Thread.Sleep(3500);
 
 		}
 	}
